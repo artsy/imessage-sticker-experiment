@@ -1,0 +1,73 @@
+{
+  "name": "Artsy+Authentication",
+  "version": "1.5.0",
+  "summary": "Authentication for Artsy Services.",
+  "description": "Authentication for Artsy Cocoa libraries. Yawn, boring.",
+  "homepage": "https://github.com/artsy/Artsy_Authentication",
+  "license": "MIT",
+  "authors": {
+    "Orta Therox": "orta@artsymail.com"
+  },
+  "source": {
+    "git": "https://github.com/artsy/Artsy_Authentication.git",
+    "tag": "1.5.0"
+  },
+  "social_media_url": "https://twitter.com/artsyopensource",
+  "platforms": {
+    "ios": "7.0",
+    "tvos": "9.0"
+  },
+  "default_subspecs": "everything",
+  "subspecs": [
+    {
+      "name": "everything",
+      "platforms": {
+        "tvos": "100.0",
+        "ios": "7.0"
+      },
+      "source_files": "Pod/Classes",
+      "private_header_files": "Pod/Classes/*Private.h",
+      "frameworks": [
+        "Foundation",
+        "Social",
+        "Accounts"
+      ],
+      "dependencies": {
+        "ISO8601DateFormatter": [
+
+        ],
+        "NSURL+QueryDictionary": [
+
+        ],
+        "LVTwitterOAuthClient": [
+
+        ]
+      }
+    },
+    {
+      "name": "email",
+      "source_files": "Pod/Classes",
+      "private_header_files": "Pod/Classes/*Private.h",
+      "exclude_files": [
+        "Pod/Classes/*Facebook.{h,m}",
+        "Pod/Classes/*Twitter.{h,m}"
+      ],
+      "tvos": {
+        "exclude_files": [
+          "Pod/Classes/*Facebook.{h,m}",
+          "Pod/Classes/*Twitter.{h,m}",
+          "Pod/Classes/*Accounts.{h,m}"
+        ]
+      },
+      "dependencies": {
+        "ISO8601DateFormatter": [
+
+        ],
+        "NSURL+QueryDictionary": [
+
+        ]
+      },
+      "frameworks": "Foundation"
+    }
+  ]
+}

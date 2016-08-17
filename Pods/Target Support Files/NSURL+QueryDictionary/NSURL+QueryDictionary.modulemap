@@ -1,0 +1,6 @@
+framework module NSURL_QueryDictionary {
+  umbrella header "NSURL+QueryDictionary-umbrella.h"
+
+  export *
+  module * { export * }
+}

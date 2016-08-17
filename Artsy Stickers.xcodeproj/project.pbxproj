@@ -13,6 +13,8 @@
 		5E7AB0A91D64D3E200F985A4 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7AB0A81D64D3E200F985A4 /* MessagesViewController.swift */; };
 		5E7AB0AC1D64D3E200F985A4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7AB0AA1D64D3E200F985A4 /* MainInterface.storyboard */; };
 		5E7AB0AE1D64D3E200F985A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7AB0AD1D64D3E200F985A4 /* Assets.xcassets */; };
+		A9CD6EDC3A794E68D4B0DE7F /* Pods_MessagesExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15091FB3CE768AE216D06A4 /* Pods_MessagesExtension.framework */; };
+		AD0CCD3D3C0A52995174EBB3 /* Pods_Artsy_Stickers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9E757B35FD88B56D32E1D /* Pods_Artsy_Stickers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0236A649504BFEB0949BE567 /* Pods-MessagesExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagesExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.release.xcconfig"; sourceTree = "<group>"; };
+		22E9E757B35FD88B56D32E1D /* Pods_Artsy_Stickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Artsy_Stickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7AB0961D64D3E200F985A4 /* Artsy Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artsy Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7AB0991D64D3E200F985A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E7AB09B1D64D3E200F985A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		5E7AB0AB1D64D3E200F985A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		5E7AB0AD1D64D3E200F985A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E7AB0AF1D64D3E200F985A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4C366EF36F8EDF3B07F3E6 /* Pods-Artsy Stickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artsy Stickers.release.xcconfig"; path = "Pods/Target Support Files/Pods-Artsy Stickers/Pods-Artsy Stickers.release.xcconfig"; sourceTree = "<group>"; };
+		D6E8F51268A0B35F930F193D /* Pods-Artsy Stickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artsy Stickers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Artsy Stickers/Pods-Artsy Stickers.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB24D13444AA2DCAB96B011 /* Pods-MessagesExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagesExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		F15091FB3CE768AE216D06A4 /* Pods_MessagesExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessagesExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E7AB0A61D64D3E200F985A4 /* Messages.framework in Frameworks */,
+				A9CD6EDC3A794E68D4B0DE7F /* Pods_MessagesExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E5A0CDD239C88C45C0F264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0CCD3D3C0A52995174EBB3 /* Pods_Artsy_Stickers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +87,7 @@
 				5E7AB0A71D64D3E200F985A4 /* MessagesExtension */,
 				5E7AB0A41D64D3E200F985A4 /* Frameworks */,
 				5E7AB0971D64D3E200F985A4 /* Products */,
+				72D2D588C9FC2A4A7E27B014 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				5E7AB0A51D64D3E200F985A4 /* Messages.framework */,
+				22E9E757B35FD88B56D32E1D /* Pods_Artsy_Stickers.framework */,
+				F15091FB3CE768AE216D06A4 /* Pods_MessagesExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,6 +130,17 @@
 			path = MessagesExtension;
 			sourceTree = "<group>";
 		};
+		72D2D588C9FC2A4A7E27B014 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6E8F51268A0B35F930F193D /* Pods-Artsy Stickers.debug.xcconfig */,
+				BF4C366EF36F8EDF3B07F3E6 /* Pods-Artsy Stickers.release.xcconfig */,
+				DAB24D13444AA2DCAB96B011 /* Pods-MessagesExtension.debug.xcconfig */,
+				0236A649504BFEB0949BE567 /* Pods-MessagesExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,8 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E7AB0B61D64D3E200F985A4 /* Build configuration list for PBXNativeTarget "Artsy Stickers" */;
 			buildPhases = (
+				418B834314F2FB9C2AFA7107 /* [CP] Check Pods Manifest.lock */,
 				5E7AB0941D64D3E200F985A4 /* Resources */,
 				5E7AB0B51D64D3E200F985A4 /* Embed App Extensions */,
+				98E5A0CDD239C88C45C0F264 /* Frameworks */,
+				B4ADD3F5E92090C6F8D03A2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E7AB0B21D64D3E200F985A4 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
 			buildPhases = (
+				952A020C05E989437391CE33 /* [CP] Check Pods Manifest.lock */,
 				5E7AB09C1D64D3E200F985A4 /* Sources */,
 				5E7AB09D1D64D3E200F985A4 /* Frameworks */,
 				5E7AB09E1D64D3E200F985A4 /* Resources */,
+				CFAF410E3A6DC830FA80BD66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,6 +241,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		418B834314F2FB9C2AFA7107 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		952A020C05E989437391CE33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4ADD3F5E92090C6F8D03A2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Artsy Stickers/Pods-Artsy Stickers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFAF410E3A6DC830FA80BD66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5E7AB09C1D64D3E200F985A4 /* Sources */ = {
@@ -330,6 +429,7 @@
 		};
 		5E7AB0B31D64D3E200F985A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB24D13444AA2DCAB96B011 /* Pods-MessagesExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
@@ -343,6 +443,7 @@
 		};
 		5E7AB0B41D64D3E200F985A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0236A649504BFEB0949BE567 /* Pods-MessagesExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
@@ -356,6 +457,7 @@
 		};
 		5E7AB0B71D64D3E200F985A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E8F51268A0B35F930F193D /* Pods-Artsy Stickers.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -369,6 +471,7 @@
 		};
 		5E7AB0B81D64D3E200F985A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4C366EF36F8EDF3B07F3E6 /* Pods-Artsy Stickers.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -399,6 +502,7 @@
 				5E7AB0B41D64D3E200F985A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E7AB0B61D64D3E200F985A4 /* Build configuration list for PBXNativeTarget "Artsy Stickers" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +511,7 @@
 				5E7AB0B81D64D3E200F985A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,38 @@
+PODS:
+  - Artsy+Authentication (1.5.0):
+    - Artsy+Authentication/everything (= 1.5.0)
+  - Artsy+Authentication/everything (1.5.0):
+    - ISO8601DateFormatter
+    - LVTwitterOAuthClient
+    - NSURL+QueryDictionary
+  - ISO8601DateFormatter (0.8)
+  - LVTwitterOAuthClient (0.3.0):
+    - OAuthCore
+  - NSData+Base64 (1.0.0)
+  - NSURL+QueryDictionary (1.2.0)
+  - OAuthCore (0.0.1):
+    - NSData+Base64
+
+DEPENDENCIES:
+  - Artsy+Authentication (from `https://github.com/artsy/Artsy-Authentication.git`)
+
+EXTERNAL SOURCES:
+  Artsy+Authentication:
+    :git: https://github.com/artsy/Artsy-Authentication.git
+
+CHECKOUT OPTIONS:
+  Artsy+Authentication:
+    :commit: d767ba7c2c0ca05faf7834e29224e1393ecf0139
+    :git: https://github.com/artsy/Artsy-Authentication.git
+
+SPEC CHECKSUMS:
+  Artsy+Authentication: 3bf11ceca61c52e9e31490535bf5798f625406fa
+  ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
+  LVTwitterOAuthClient: 058199e43af92c0b99332332fa26d2229c59f04d
+  NSData+Base64: 4e84902c4db907a15673474677e57763ef3903e4
+  NSURL+QueryDictionary: bae616404e2adf6409d3d5c02a093cbf44c8a236
+  OAuthCore: 43dce261db846a1fe20234d95654257e00e78581
+
+PODFILE CHECKSUM: 52eeabd56716ee88996654668039ff9347502e03
+
+COCOAPODS: 1.0.1

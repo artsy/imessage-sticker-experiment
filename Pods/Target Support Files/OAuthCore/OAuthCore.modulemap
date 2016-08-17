@@ -1,0 +1,6 @@
+framework module OAuthCore {
+  umbrella header "OAuthCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

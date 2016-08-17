@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Artsy+Authentication" "$PODS_CONFIGURATION_BUILD_DIR/ISO8601DateFormatter" "$PODS_CONFIGURATION_BUILD_DIR/LVTwitterOAuthClient" "$PODS_CONFIGURATION_BUILD_DIR/NSData+Base64" "$PODS_CONFIGURATION_BUILD_DIR/NSURL+QueryDictionary" "$PODS_CONFIGURATION_BUILD_DIR/OAuthCore"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Artsy+Authentication/Artsy_Authentication.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ISO8601DateFormatter/ISO8601DateFormatter.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/LVTwitterOAuthClient/LVTwitterOAuthClient.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/NSData+Base64/NSData_Base64.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/NSURL+QueryDictionary/NSURL_QueryDictionary.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OAuthCore/OAuthCore.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Artsy_Authentication" -framework "ISO8601DateFormatter" -framework "LVTwitterOAuthClient" -framework "NSData_Base64" -framework "NSURL_QueryDictionary" -framework "OAuthCore"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
