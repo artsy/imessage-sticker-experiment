@@ -1,6 +1,0 @@
-framework module LVTwitterOAuthClient {
-  umbrella header "LVTwitterOAuthClient-umbrella.h"
-
-  export *
-  module * { export * }
-}

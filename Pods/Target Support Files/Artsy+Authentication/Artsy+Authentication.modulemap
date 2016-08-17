@@ -1,6 +1,0 @@
-framework module Artsy_Authentication {
-  umbrella header "Artsy+Authentication-umbrella.h"
-
-  export *
-  module * { export * }
-}

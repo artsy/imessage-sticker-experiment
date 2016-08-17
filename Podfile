@@ -6,7 +6,6 @@ target 'Artsy Stickers' do
   use_frameworks!
 
   # Pods for Artsy Stickers
-  pod 'Artsy+Authentication', git: 'https://github.com/artsy/Artsy-Authentication.git'
 
 end
 
@@ -15,6 +14,6 @@ target 'MessagesExtension' do
   use_frameworks!
 
   # Pods for MessagesExtension
-  pod 'Artsy+Authentication', git: 'https://github.com/artsy/Artsy-Authentication.git'
+#  pod 'Artsy+Authentication', git: 'https://github.com/artsy/Artsy-Authentication.git'
 
 end

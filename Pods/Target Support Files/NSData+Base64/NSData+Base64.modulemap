@@ -1,6 +1,0 @@
-framework module NSData_Base64 {
-  umbrella header "NSData+Base64-umbrella.h"
-
-  export *
-  module * { export * }
-}

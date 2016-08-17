@@ -7,472 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001ECECF6C2EE9073AACCE63D6DDB6B6 /* ArtsyAuthentication+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 047872E25514C88A0752B15D8A625D3F /* ArtsyAuthentication+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		08D441CE65BFFA2498831E6E5352949B /* ArtsyAuthentication+Accounts.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0011C4556FF48D94208181DC8B2BB3 /* ArtsyAuthentication+Accounts.m */; };
-		0A8FDB387FE66513CBC54AE293EC76E0 /* LVTwitterOAuthClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374B4B46F28D9D115BBC4D9CA24BC34 /* LVTwitterOAuthClient.m */; };
-		0B90C79E2BA40E07B3F004BAD1B1CD69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B0CF88E0A0D2FB176164EDFBD5010C /* Foundation.framework */; };
-		0F2231D69831DE4EB8911D9A6D4F973D /* OAuthCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D14A6D9BCDC0CA3548D88DA3A10EE34 /* OAuthCore-dummy.m */; };
-		0FF1293BA578F438C88FD9A8AF9BBF73 /* LVTwitterOAuthClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F97BA5A0310B238D70AE1C952E6D85 /* LVTwitterOAuthClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13F6902947E172114154AA3956203C0B /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4CB8F876E37061A8F7A6A0947D35A8 /* OAuthCore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1C078F063601F2F289EF2E57B5A7C813 /* NSURL+QueryDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A228CB52FAC46B452F280D9E9B16788 /* NSURL+QueryDictionary.m */; };
-		1CE5DA84C43E5D88C3DC2E3E7A35718F /* Pods-MessagesExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F9EFD5C7B567F656C72C621DAC4241 /* Pods-MessagesExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		209072070415193AC147E435C5C60B29 /* OAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995A3C48952BB8BDA8060EF8136BEEC8 /* OAuthCore.framework */; };
-		215B743DDACF41105C58A56E6798F746 /* ArtsyAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E069925424FC40DACECC45930E2C9F /* ArtsyAuthentication.m */; };
-		226CE98AA1E7027B6E14DFDE4A05D3E1 /* ISO8601DateFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CE6163E03770E9E575F13E3642BDE5 /* ISO8601DateFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		245AA11966568FD090E4462375282642 /* ArtsyToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8632597FCA2E0AD777860A13DF02FC /* ArtsyToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25DC0ACEFF4DD0A14F31FB26AB93E894 /* Pods-MessagesExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B57C18EF1285AE7964564C7CBFDDD2 /* Pods-MessagesExtension-dummy.m */; };
-		29F1870DEC86E554F41DC5D8D428FBEC /* ISO8601DateFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A654E2FFE7F70B6C9C8C7A43F7C7A3C3 /* ISO8601DateFormatter-dummy.m */; };
-		2DC1EA5F3AB586EC9F7E80CE7CF2D9DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B0CF88E0A0D2FB176164EDFBD5010C /* Foundation.framework */; };
-		2E85E0CF7A3D7D0D311DD472A281CBA6 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A7C1C0ADBD79C7B22EB737E003B6E9 /* ISO8601DateFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3657E1471AAF00E79EAC2D4C1E00F60C /* NSData_Base64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E03A703815CA477D9892A59080A3BF /* NSData_Base64.framework */; };
-		392AE8AD75D863434D0E657ED6B2AFF2 /* ArtsyAuthentication+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD785791D76CF3EF09EBD1CDD25EB4E /* ArtsyAuthentication+Private.m */; };
-		3A913D155A21F9B9894E605C8973EEC2 /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C12D8E9D7DEB12ADBCCA630CE85B0 /* OAuth+Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		49FF3C3F661ED1D97200E9603412363D /* NSURL_QueryDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24E60B8FC1F73AE9C95F91D6C7B8D0F /* NSURL_QueryDictionary.framework */; };
-		54CDB6FE67A70405A7689107BF8468F0 /* OAuth+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 703DFD069964C1CC53F01AD969AB8EB0 /* OAuth+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59A42F006CCA1D96F25B2D2E0C3B3A8B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2F8983A2A6877347C39F076E585EC9 /* Social.framework */; };
-		5B9A053D763DE6F22BA967E3DC7DAE79 /* LVTwitterOAuthClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 419E9AFD9899EB59E17569FA58D025A7 /* LVTwitterOAuthClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C3A16220C1132DFA9658E04D25A6ADA /* NSData_Base64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E03A703815CA477D9892A59080A3BF /* NSData_Base64.framework */; };
-		62E575721BDBD9930322B0CE1070E467 /* ArtsyAuthentication+Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5569B42FF91E5F5DED74DF26840CD03 /* ArtsyAuthentication+Twitter.m */; };
-		64CE2F4DBA0776B87AE9F654F828922A /* Artsy+Authentication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3504FE67FD880426064007F2078B0653 /* Artsy+Authentication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6553D27344A18F3F7E2A2797F486CD46 /* ArtsyNetworkOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 783BE1A06945891324CB70B26D0306DC /* ArtsyNetworkOperator.m */; };
-		683C42A1C5F0A3D3E14675A9CCF85F2D /* OAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995A3C48952BB8BDA8060EF8136BEEC8 /* OAuthCore.framework */; };
-		69C631C9D59A653D91DC289A22596A5A /* OAuthCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D96698DB3971D24E11F0FAE0D7166621 /* OAuthCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C987FB0A4B19091CE3746DB2F6DA572 /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F2F2C68D16A5F5B1EE4BC16CB953AC2E /* ISO8601DateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F239D315509FF4C972066B63C35228D /* Artsy+Authentication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 536F119D49A44FB75E79F886D64CB768 /* Artsy+Authentication-dummy.m */; };
-		74425BE98E2CE48C9685BC745C6A2758 /* NSURL+QueryDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 496F84EE75E0B64170C2B3CD722ECF1F /* NSURL+QueryDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76185BAE9981768D11414B1724B30FE0 /* NSData+Base64-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A52F7C0CE8D4701FD2DD7F57235746B8 /* NSData+Base64-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7ABC0CBE26CBCD7A4D2D8DA3BECE64E1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2F8983A2A6877347C39F076E585EC9 /* Social.framework */; };
-		7B3FD9576C58B5D27BBE211E589AB51F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B0CF88E0A0D2FB176164EDFBD5010C /* Foundation.framework */; };
-		86B8759204782C1E2CD0189DA56C506F /* ArtsyAuthenticationRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2676D09B87515B4DFF70398191F4A1B4 /* ArtsyAuthenticationRouter.m */; };
-		86E9834F8A6C3A1EFC1251F5F33DB33E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B0CF88E0A0D2FB176164EDFBD5010C /* Foundation.framework */; };
-		8C672907B9FCD8CD532EE7012D6DECD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B0CF88E0A0D2FB176164EDFBD5010C /* Foundation.framework */; };
-		8CEE970C2E4CFC4F2D5CABF452261A62 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8518657D9C19F194F8FCFF3C42FDDC43 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8D2B1544AD478F2313F1DA255CE25B02 /* Pods-Artsy Stickers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE3C7F5DF6C239DB5258FA562842CB /* Pods-Artsy Stickers-dummy.m */; };
-		9C1D7D66006E3869DAC7D89EE52C6B51 /* ArtsyAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DDF8CE10A0B596F44585E9D73C00A5 /* ArtsyAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C532583C6A4A5DBA8600AE1C8D2F1F5 /* NSURL+QueryDictionary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABD81A6087410F574032923276AA331 /* NSURL+QueryDictionary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A08B66D6D5244C9BD7FB0EFB330D678D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B0CF88E0A0D2FB176164EDFBD5010C /* Foundation.framework */; };
-		A632473AB32D2815C51275DAD7A7F515 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9DA3545E5DFD93CB8414F5B9D5C797 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A91DE6A946CE72EDA96B97D80447D7CB /* NSData+Base64-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F662099ACBC83BB906A068EC7D3E911F /* NSData+Base64-dummy.m */; };
-		AF4FA0C48EB36ED03FD600229B63EBB1 /* ArtsyAuthentication+Twitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D65949680FAD525943DBA4AEBA0E16 /* ArtsyAuthentication+Twitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0A912D211671F461B76967204DF67AE /* NSData_Base64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E03A703815CA477D9892A59080A3BF /* NSData_Base64.framework */; };
-		BEA10DE28D45D9B271B0EC71FF2DBA58 /* NSURL+QueryDictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EAD1D5EEE44C2595CDA4CAD49D318F /* NSURL+QueryDictionary-dummy.m */; };
-		BEDDCF99366B35F155B8EB72A074ACE7 /* ArtsyAuthentication+Facebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E3636375C82891123C4C0C005AD654 /* ArtsyAuthentication+Facebook.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1507F7871C3A0443C173FD6062FC14E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B0CF88E0A0D2FB176164EDFBD5010C /* Foundation.framework */; };
-		CCA563D6D8E5657DA820E29B4937649F /* LVTwitterOAuthClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AA913D1339D6A5336494CB2272CDA8 /* LVTwitterOAuthClient.framework */; };
-		D337604FCC48AC8039795F492058252F /* ArtsyAuthentication+Accounts.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDA22AB691C39E3CFCC55F1A62ABF6C /* ArtsyAuthentication+Accounts.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA92D81BEE4808E3579202FA51DD1A60 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95526DACFA08DF8046C87C212184E268 /* Accounts.framework */; };
-		E080A27ADA207B52AB6C50B0265DD678 /* Artsy+Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0E95AACE7DCF553C9B4619EBE82532 /* Artsy+Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E12F5D5EAF8614E002530E558143252E /* ISO8601DateFormatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF24A62258CF1B3ACB0E8A5D8298F1A3 /* ISO8601DateFormatter.framework */; };
-		E84DB9BE233886A10A3FC3FB3AD15394 /* OAuthCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A99AA8A72A8A4FDADE56B53B8C1B2BD /* OAuthCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF422088BAAE21BEF7438BCFF54B03DD /* LVTwitterOAuthClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD71F280C6397E4906FC8CC88FDBAF /* LVTwitterOAuthClient-dummy.m */; };
-		F004B71154CD08F8AF81F50E4F7C23A7 /* ArtsyAuthentication+Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA944EACB6D605DE5BEB7291F88FA0 /* ArtsyAuthentication+Facebook.m */; };
-		F016DAE7CBA259242EA0B191012EC525 /* ArtsyAuthenticationRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D30B38FFE9780C09BC429CCA02D552B /* ArtsyAuthenticationRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F09E2F1E1F385267A878710715A8652F /* ArtsyNetworkOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7D10C7023A84E289E095AA8F5AD40C /* ArtsyNetworkOperator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F59611AE6D4BCDE971AC72759A504580 /* ArtsyToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 546CA4161F20596683D1C7CDD7481913 /* ArtsyToken.m */; };
-		FD99C2429E2653E6C356A46F7D713C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B0CF88E0A0D2FB176164EDFBD5010C /* Foundation.framework */; };
-		FFC98993214CABA5CF6249A8E564A602 /* Pods-Artsy Stickers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3B4BB35E8EC7C0764EBF208FDE001F /* Pods-Artsy Stickers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E2D6742D8218BAD0A6F9DD1CDFA6A17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A60EF532298E9DF802F7E5694FD79CDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B13DA8E78FA74F25B34E98D1E6562508 /* Pods-MessagesExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B57C18EF1285AE7964564C7CBFDDD2 /* Pods-MessagesExtension-dummy.m */; };
+		BBD2996506FFDD525CEB69ABE8BDE341 /* Pods-Artsy Stickers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE3C7F5DF6C239DB5258FA562842CB /* Pods-Artsy Stickers-dummy.m */; };
+		BF4A6BF9D2CE675EFAD7EE1BFEA8EA1E /* Pods-Artsy Stickers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3B4BB35E8EC7C0764EBF208FDE001F /* Pods-Artsy Stickers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5BD10C8F1D9691016DFD4CFF5DEE082 /* Pods-MessagesExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F9EFD5C7B567F656C72C621DAC4241 /* Pods-MessagesExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0423A6DFB2CC2401CCF653361CD2F06B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23237F4C3BBD85276CA941079E263C6C;
-			remoteInfo = LVTwitterOAuthClient;
-		};
-		0E42D25CF2B261D4617B4D5854829D78 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5160C71BD8962F697B1144A451F240EB;
-			remoteInfo = "NSURL+QueryDictionary";
-		};
-		6648809E23639E7D56FF9157B3E03072 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4ABC0A4112381747727AE0B3537A9CDB;
-			remoteInfo = OAuthCore;
-		};
-		6A6ADCF0C81EFCE5446864B94553D356 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C033D113471FFE1972D1FE18502FE256;
-			remoteInfo = "NSData+Base64";
-		};
-		721AD1A6B09AFDE7C5EF8182CB7239FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C033D113471FFE1972D1FE18502FE256;
-			remoteInfo = "NSData+Base64";
-		};
-		80C1A1A7B331033E15F1B2CAA479B6B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0E36249FB44A77D0CB59B5F9838D7C2;
-			remoteInfo = ISO8601DateFormatter;
-		};
-		8DA36352A6EC1593D50E5BC4D1565AC2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0E36249FB44A77D0CB59B5F9838D7C2;
-			remoteInfo = ISO8601DateFormatter;
-		};
-		95EDDF43C00120047B7ECCC64975E7F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23237F4C3BBD85276CA941079E263C6C;
-			remoteInfo = LVTwitterOAuthClient;
-		};
-		993D7E13C16F774C00E7E3ED4D866D22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C033D113471FFE1972D1FE18502FE256;
-			remoteInfo = "NSData+Base64";
-		};
-		9B21854247BBB94BC93CB05F20608E4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C71308ECE59EF87056B2E9351E543F5;
-			remoteInfo = "Artsy+Authentication";
-		};
-		A029F897A6E417FA94B8245611E3F1D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C033D113471FFE1972D1FE18502FE256;
-			remoteInfo = "NSData+Base64";
-		};
-		BBD86D47C2502ECF8C4D9DA9D15470A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4ABC0A4112381747727AE0B3537A9CDB;
-			remoteInfo = OAuthCore;
-		};
-		CBFF407D81DC362C13AC0629CBD70125 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5160C71BD8962F697B1144A451F240EB;
-			remoteInfo = "NSURL+QueryDictionary";
-		};
-		D0DC8C59C44A0C016E66F0AC24CA59BE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C033D113471FFE1972D1FE18502FE256;
-			remoteInfo = "NSData+Base64";
-		};
-		D793DE2C5AB9B9EDC97F46A6DF8575D0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4ABC0A4112381747727AE0B3537A9CDB;
-			remoteInfo = OAuthCore;
-		};
-		DA6190C814AD02B481351943C443BF80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23237F4C3BBD85276CA941079E263C6C;
-			remoteInfo = LVTwitterOAuthClient;
-		};
-		E509F36E718FF4CDF1E19F649820C250 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0E36249FB44A77D0CB59B5F9838D7C2;
-			remoteInfo = ISO8601DateFormatter;
-		};
-		EC55BC2E63C9BFB7D5F0740E60687690 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4ABC0A4112381747727AE0B3537A9CDB;
-			remoteInfo = OAuthCore;
-		};
-		EF1CEE7C90B877357DAD986CA6856A51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C71308ECE59EF87056B2E9351E543F5;
-			remoteInfo = "Artsy+Authentication";
-		};
-		F7752D7F37022C40BD8984CECE6A7FA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5160C71BD8962F697B1144A451F240EB;
-			remoteInfo = "NSURL+QueryDictionary";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00F97BA5A0310B238D70AE1C952E6D85 /* LVTwitterOAuthClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LVTwitterOAuthClient-umbrella.h"; sourceTree = "<group>"; };
-		047872E25514C88A0752B15D8A625D3F /* ArtsyAuthentication+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ArtsyAuthentication+Private.h"; path = "Pod/Classes/ArtsyAuthentication+Private.h"; sourceTree = "<group>"; };
 		05CE25B4DC2D41BE1196F7782A35A35A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08AA913D1339D6A5336494CB2272CDA8 /* LVTwitterOAuthClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LVTwitterOAuthClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B2D42534FAF45EEEDA4EC34276A3E4A /* Pods-MessagesExtension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessagesExtension-frameworks.sh"; sourceTree = "<group>"; };
-		0D30B38FFE9780C09BC429CCA02D552B /* ArtsyAuthenticationRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ArtsyAuthenticationRouter.h; path = Pod/Classes/ArtsyAuthenticationRouter.h; sourceTree = "<group>"; };
-		172F968AA980463B44B8D10420868444 /* Artsy+Authentication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Artsy+Authentication.modulemap"; sourceTree = "<group>"; };
-		186C12D8E9D7DEB12ADBCCA630CE85B0 /* OAuth+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OAuth+Additions.m"; sourceTree = "<group>"; };
-		199D1645408602E25AB81A87A65EE498 /* NSURL+QueryDictionary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSURL+QueryDictionary.modulemap"; sourceTree = "<group>"; };
-		1ABD81A6087410F574032923276AA331 /* NSURL+QueryDictionary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryDictionary-umbrella.h"; sourceTree = "<group>"; };
-		1C90191062A896F2FCE16330F3DFF093 /* NSURL+QueryDictionary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryDictionary-prefix.pch"; sourceTree = "<group>"; };
+		11C30A8F999D4EA2B05390B83B84DB7B /* Pods_MessagesExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessagesExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D682674C52D006D8A2A404D64B58D46 /* Pods-Artsy Stickers-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Artsy Stickers-frameworks.sh"; sourceTree = "<group>"; };
 		1EDE3C7F5DF6C239DB5258FA562842CB /* Pods-Artsy Stickers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Artsy Stickers-dummy.m"; sourceTree = "<group>"; };
-		2268167A64B1863E8343B648DE57D1B0 /* NSData+Base64.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSData+Base64.modulemap"; sourceTree = "<group>"; };
-		2676D09B87515B4DFF70398191F4A1B4 /* ArtsyAuthenticationRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ArtsyAuthenticationRouter.m; path = Pod/Classes/ArtsyAuthenticationRouter.m; sourceTree = "<group>"; };
-		2774AED8F4CDB14B961A519C57557882 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A35BA563912ED7C3BD6F6C4E3107AE9 /* LVTwitterOAuthClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LVTwitterOAuthClient.xcconfig; sourceTree = "<group>"; };
-		2C85EBC6A9FD424072AB0DA6021FD0BC /* LVTwitterOAuthClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LVTwitterOAuthClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D4CB8F876E37061A8F7A6A0947D35A8 /* OAuthCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OAuthCore.m; sourceTree = "<group>"; };
-		344D78CF3DDB6CE9FBB6FAC2E43B94DD /* OAuthCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAuthCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3504FE67FD880426064007F2078B0653 /* Artsy+Authentication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Artsy+Authentication-umbrella.h"; sourceTree = "<group>"; };
 		3761787004CD851F3293662E8B16B980 /* Pods-Artsy Stickers-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Artsy Stickers-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3A3B4BB35E8EC7C0764EBF208FDE001F /* Pods-Artsy Stickers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Artsy Stickers-umbrella.h"; sourceTree = "<group>"; };
-		3AF02AB47CA9F43B619F4D6C4D915231 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CFD71F280C6397E4906FC8CC88FDBAF /* LVTwitterOAuthClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LVTwitterOAuthClient-dummy.m"; sourceTree = "<group>"; };
-		40E03A703815CA477D9892A59080A3BF /* NSData_Base64.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSData_Base64.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		419E9AFD9899EB59E17569FA58D025A7 /* LVTwitterOAuthClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTwitterOAuthClient.h; path = LVTwitterOAuthClient/LVTwitterOAuthClient.h; sourceTree = "<group>"; };
 		4226BD72FDA592EA2ACCEF27EF13F37D /* Pods-Artsy Stickers-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Artsy Stickers-acknowledgements.plist"; sourceTree = "<group>"; };
 		4274CF80ADA6EC12BE3C57DC0E6604EE /* Pods-Artsy Stickers-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Artsy Stickers-resources.sh"; sourceTree = "<group>"; };
-		42C6227D1042CDD76623E48CD5E35C2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		496F84EE75E0B64170C2B3CD722ECF1F /* NSURL+QueryDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+QueryDictionary.h"; path = "NSURL+QueryDictionary/NSURL+QueryDictionary.h"; sourceTree = "<group>"; };
-		4B7D10C7023A84E289E095AA8F5AD40C /* ArtsyNetworkOperator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ArtsyNetworkOperator.h; path = Pod/Classes/ArtsyNetworkOperator.h; sourceTree = "<group>"; };
-		4B9B6E06173AB1F3B0489E40D79D92A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D14A6D9BCDC0CA3548D88DA3A10EE34 /* OAuthCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OAuthCore-dummy.m"; sourceTree = "<group>"; };
-		4D2F8983A2A6877347C39F076E585EC9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
-		4FAA944EACB6D605DE5BEB7291F88FA0 /* ArtsyAuthentication+Facebook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ArtsyAuthentication+Facebook.m"; path = "Pod/Classes/ArtsyAuthentication+Facebook.m"; sourceTree = "<group>"; };
-		50BA39774529559BE4240EA98FD6AECE /* ISO8601DateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISO8601DateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		536F119D49A44FB75E79F886D64CB768 /* Artsy+Authentication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Artsy+Authentication-dummy.m"; sourceTree = "<group>"; };
-		53CE6163E03770E9E575F13E3642BDE5 /* ISO8601DateFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISO8601DateFormatter-umbrella.h"; sourceTree = "<group>"; };
-		546CA4161F20596683D1C7CDD7481913 /* ArtsyToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ArtsyToken.m; path = Pod/Classes/ArtsyToken.m; sourceTree = "<group>"; };
-		552815E1A133796BE2BF3A8BD8A9EC1E /* LVTwitterOAuthClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LVTwitterOAuthClient-prefix.pch"; sourceTree = "<group>"; };
-		56A7C1C0ADBD79C7B22EB737E003B6E9 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
-		5A228CB52FAC46B452F280D9E9B16788 /* NSURL+QueryDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+QueryDictionary.m"; path = "NSURL+QueryDictionary/NSURL+QueryDictionary.m"; sourceTree = "<group>"; };
 		5CC58E16249C4C3704907D06F5CAB5E4 /* Pods-Artsy Stickers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Artsy Stickers.release.xcconfig"; sourceTree = "<group>"; };
-		61D65949680FAD525943DBA4AEBA0E16 /* ArtsyAuthentication+Twitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ArtsyAuthentication+Twitter.h"; path = "Pod/Classes/ArtsyAuthentication+Twitter.h"; sourceTree = "<group>"; };
-		61E3CC42AF7667D88D4485AB6E80DC26 /* ISO8601DateFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISO8601DateFormatter-prefix.pch"; sourceTree = "<group>"; };
-		6374B4B46F28D9D115BBC4D9CA24BC34 /* LVTwitterOAuthClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVTwitterOAuthClient.m; path = LVTwitterOAuthClient/LVTwitterOAuthClient.m; sourceTree = "<group>"; };
 		6517467BFB204D0D47843EDF3EA0467C /* Pods-MessagesExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MessagesExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		669B79394747F583CD7847AD40298411 /* Pods-Artsy Stickers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Artsy Stickers.modulemap"; sourceTree = "<group>"; };
-		67BFCBFEAED288B8EC5B94D1729F0F48 /* ISO8601DateFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISO8601DateFormatter.xcconfig; sourceTree = "<group>"; };
 		698E77F07C17BAFFF54E2A2D4AA1C868 /* Pods-MessagesExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessagesExtension-acknowledgements.plist"; sourceTree = "<group>"; };
-		69E3636375C82891123C4C0C005AD654 /* ArtsyAuthentication+Facebook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ArtsyAuthentication+Facebook.h"; path = "Pod/Classes/ArtsyAuthentication+Facebook.h"; sourceTree = "<group>"; };
-		6F8632597FCA2E0AD777860A13DF02FC /* ArtsyToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ArtsyToken.h; path = Pod/Classes/ArtsyToken.h; sourceTree = "<group>"; };
-		703DFD069964C1CC53F01AD969AB8EB0 /* OAuth+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
-		783BE1A06945891324CB70B26D0306DC /* ArtsyNetworkOperator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ArtsyNetworkOperator.m; path = Pod/Classes/ArtsyNetworkOperator.m; sourceTree = "<group>"; };
 		7E8D9AA4DAC3D803BC393B18E0415C2C /* Pods-MessagesExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessagesExtension-resources.sh"; sourceTree = "<group>"; };
-		828B2D7F56D156DFF2DABE5A6C265AD0 /* NSData_Base64.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSData_Base64.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8518657D9C19F194F8FCFF3C42FDDC43 /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		87DE087D73AA056C9879D1115147A00A /* Pods_Artsy_Stickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Artsy_Stickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9206912BD1DE92CF4AE920699922250E /* Pods-MessagesExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessagesExtension.release.xcconfig"; sourceTree = "<group>"; };
-		92B0CF88E0A0D2FB176164EDFBD5010C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		92D031096718A4C9A5355855369719ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95526DACFA08DF8046C87C212184E268 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
-		99028E8F68B54B9181BD8C560D360985 /* NSData+Base64-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64-prefix.pch"; sourceTree = "<group>"; };
-		995A3C48952BB8BDA8060EF8136BEEC8 /* OAuthCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OAuthCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A99AA8A72A8A4FDADE56B53B8C1B2BD /* OAuthCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuthCore-umbrella.h"; sourceTree = "<group>"; };
-		9AD252C6FFE1E31589DBD56D25192E30 /* OAuthCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OAuthCore.modulemap; sourceTree = "<group>"; };
-		9B9DA3545E5DFD93CB8414F5B9D5C797 /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		9DD785791D76CF3EF09EBD1CDD25EB4E /* ArtsyAuthentication+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ArtsyAuthentication+Private.m"; path = "Pod/Classes/ArtsyAuthentication+Private.m"; sourceTree = "<group>"; };
-		A24E60B8FC1F73AE9C95F91D6C7B8D0F /* NSURL_QueryDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSURL_QueryDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2636D92D3A654DAFDC72DDBD4490444 /* Artsy_Authentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Artsy_Authentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4CDC0787E9CDB542688AF41B9F2F058 /* NSData+Base64.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSData+Base64.xcconfig"; sourceTree = "<group>"; };
-		A52F7C0CE8D4701FD2DD7F57235746B8 /* NSData+Base64-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64-umbrella.h"; sourceTree = "<group>"; };
-		A654E2FFE7F70B6C9C8C7A43F7C7A3C3 /* ISO8601DateFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISO8601DateFormatter-dummy.m"; sourceTree = "<group>"; };
-		A7A7BFA8C8EAB2EBC2E2FC15FC7961A9 /* NSURL_QueryDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSURL_QueryDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5569B42FF91E5F5DED74DF26840CD03 /* ArtsyAuthentication+Twitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ArtsyAuthentication+Twitter.m"; path = "Pod/Classes/ArtsyAuthentication+Twitter.m"; sourceTree = "<group>"; };
 		B5F484238012D91170D6C2D45AC74CEE /* Pods-MessagesExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessagesExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		B64583AEA0076C3766FBB00B69EFDD61 /* Pods-MessagesExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MessagesExtension.modulemap"; sourceTree = "<group>"; };
-		BC8EC01B73B48084625B29EE9A4FF24E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCC32DBD80214440E0687816D463D8B5 /* OAuthCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAuthCore-prefix.pch"; sourceTree = "<group>"; };
-		BF9F8E97011E1FE54CBF293E010243CA /* Artsy+Authentication.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Artsy+Authentication.xcconfig"; sourceTree = "<group>"; };
 		C27874697176457036604887C21B6FF1 /* Pods-Artsy Stickers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Artsy Stickers.debug.xcconfig"; sourceTree = "<group>"; };
 		C5B57C18EF1285AE7964564C7CBFDDD2 /* Pods-MessagesExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MessagesExtension-dummy.m"; sourceTree = "<group>"; };
-		C5DDF8CE10A0B596F44585E9D73C00A5 /* ArtsyAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ArtsyAuthentication.h; path = Pod/Classes/ArtsyAuthentication.h; sourceTree = "<group>"; };
 		C6F9EFD5C7B567F656C72C621DAC4241 /* Pods-MessagesExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MessagesExtension-umbrella.h"; sourceTree = "<group>"; };
-		C796DB30BFEEE53800FB64953C2E3ADB /* Artsy+Authentication-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Artsy+Authentication-prefix.pch"; sourceTree = "<group>"; };
-		CEB0B648ADDC87ADE35D0DF7E0D68356 /* Pods_MessagesExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessagesExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D96698DB3971D24E11F0FAE0D7166621 /* OAuthCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OAuthCore.h; sourceTree = "<group>"; };
-		DF24A62258CF1B3ACB0E8A5D8298F1A3 /* ISO8601DateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISO8601DateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1E069925424FC40DACECC45930E2C9F /* ArtsyAuthentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ArtsyAuthentication.m; path = Pod/Classes/ArtsyAuthentication.m; sourceTree = "<group>"; };
-		E222EEFB338DC7FAF59F922C92C9C1F6 /* LVTwitterOAuthClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LVTwitterOAuthClient.modulemap; sourceTree = "<group>"; };
-		E2EAD1D5EEE44C2595CDA4CAD49D318F /* NSURL+QueryDictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryDictionary-dummy.m"; sourceTree = "<group>"; };
-		E5AA641717275DE73EFFD641E84AE1F2 /* OAuthCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OAuthCore.xcconfig; sourceTree = "<group>"; };
-		EBDA22AB691C39E3CFCC55F1A62ABF6C /* ArtsyAuthentication+Accounts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ArtsyAuthentication+Accounts.h"; path = "Pod/Classes/ArtsyAuthentication+Accounts.h"; sourceTree = "<group>"; };
-		ED0E95AACE7DCF553C9B4619EBE82532 /* Artsy+Authentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Artsy+Authentication.h"; path = "Pod/Classes/Artsy+Authentication.h"; sourceTree = "<group>"; };
-		EE0011C4556FF48D94208181DC8B2BB3 /* ArtsyAuthentication+Accounts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ArtsyAuthentication+Accounts.m"; path = "Pod/Classes/ArtsyAuthentication+Accounts.m"; sourceTree = "<group>"; };
-		F1359F3E32CFF374AB8001698F06EB83 /* ISO8601DateFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ISO8601DateFormatter.modulemap; sourceTree = "<group>"; };
-		F2F2C68D16A5F5B1EE4BC16CB953AC2E /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
-		F45AE81BD47ECEF84FF2972FEA5A2080 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F662099ACBC83BB906A068EC7D3E911F /* NSData+Base64-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64-dummy.m"; sourceTree = "<group>"; };
-		F764ACD545227438F6B69C8F8AA878A8 /* NSURL+QueryDictionary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSURL+QueryDictionary.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E59F1FB3F519F1083A5F12D3F69004EB /* Pods_Artsy_Stickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Artsy_Stickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14975321C5B5FCA9DA72350DA5E4653B /* Frameworks */ = {
+		332788EDD0BCDB58BE900C2D4A79DB37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B3FD9576C58B5D27BBE211E589AB51F /* Foundation.framework in Frameworks */,
-				B0A912D211671F461B76967204DF67AE /* NSData_Base64.framework in Frameworks */,
+				6E2D6742D8218BAD0A6F9DD1CDFA6A17 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18EE381A1447DB9E45094A1A100E8236 /* Frameworks */ = {
+		A1AB41FD2FE8201E72B553466866A94A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A08B66D6D5244C9BD7FB0EFB330D678D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A5AD167618AD118E069563607E01025 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA92D81BEE4808E3579202FA51DD1A60 /* Accounts.framework in Frameworks */,
-				FD99C2429E2653E6C356A46F7D713C01 /* Foundation.framework in Frameworks */,
-				E12F5D5EAF8614E002530E558143252E /* ISO8601DateFormatter.framework in Frameworks */,
-				CCA563D6D8E5657DA820E29B4937649F /* LVTwitterOAuthClient.framework in Frameworks */,
-				5C3A16220C1132DFA9658E04D25A6ADA /* NSData_Base64.framework in Frameworks */,
-				49FF3C3F661ED1D97200E9603412363D /* NSURL_QueryDictionary.framework in Frameworks */,
-				683C42A1C5F0A3D3E14675A9CCF85F2D /* OAuthCore.framework in Frameworks */,
-				7ABC0CBE26CBCD7A4D2D8DA3BECE64E1 /* Social.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B5C091F96B67F9F131FD8C884D99706 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C672907B9FCD8CD532EE7012D6DECD8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69442DFA0BB1B68A0456091D55408A04 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86E9834F8A6C3A1EFC1251F5F33DB33E /* Foundation.framework in Frameworks */,
-				3657E1471AAF00E79EAC2D4C1E00F60C /* NSData_Base64.framework in Frameworks */,
-				209072070415193AC147E435C5C60B29 /* OAuthCore.framework in Frameworks */,
-				59A42F006CCA1D96F25B2D2E0C3B3A8B /* Social.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E19BBE902BFC3704109DDEE775F4D6A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1507F7871C3A0443C173FD6062FC14E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8ACC438B2EBBDFA5FD5171118D794912 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B90C79E2BA40E07B3F004BAD1B1CD69 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8141CD979B28FC19F00983484E4A00C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DC1EA5F3AB586EC9F7E80CE7CF2D9DD /* Foundation.framework in Frameworks */,
+				A60EF532298E9DF802F7E5694FD79CDD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1616C8FEC0F9B6BC7496BE99E442A07C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				42C6227D1042CDD76623E48CD5E35C2D /* Info.plist */,
-				F1359F3E32CFF374AB8001698F06EB83 /* ISO8601DateFormatter.modulemap */,
-				67BFCBFEAED288B8EC5B94D1729F0F48 /* ISO8601DateFormatter.xcconfig */,
-				A654E2FFE7F70B6C9C8C7A43F7C7A3C3 /* ISO8601DateFormatter-dummy.m */,
-				61E3CC42AF7667D88D4485AB6E80DC26 /* ISO8601DateFormatter-prefix.pch */,
-				53CE6163E03770E9E575F13E3642BDE5 /* ISO8601DateFormatter-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ISO8601DateFormatter";
-			sourceTree = "<group>";
-		};
-		17A30C8D5AB792708F04BEEA240E8202 /* OAuthCore */ = {
-			isa = PBXGroup;
-			children = (
-				703DFD069964C1CC53F01AD969AB8EB0 /* OAuth+Additions.h */,
-				186C12D8E9D7DEB12ADBCCA630CE85B0 /* OAuth+Additions.m */,
-				D96698DB3971D24E11F0FAE0D7166621 /* OAuthCore.h */,
-				2D4CB8F876E37061A8F7A6A0947D35A8 /* OAuthCore.m */,
-				DAE3A3A9C0F4A6653A719EF64BAA47C5 /* Support Files */,
-			);
-			path = OAuthCore;
-			sourceTree = "<group>";
-		};
-		1C4777253EE47AF3B245AAFE14F3BD61 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F45AE81BD47ECEF84FF2972FEA5A2080 /* Info.plist */,
-				E222EEFB338DC7FAF59F922C92C9C1F6 /* LVTwitterOAuthClient.modulemap */,
-				2A35BA563912ED7C3BD6F6C4E3107AE9 /* LVTwitterOAuthClient.xcconfig */,
-				3CFD71F280C6397E4906FC8CC88FDBAF /* LVTwitterOAuthClient-dummy.m */,
-				552815E1A133796BE2BF3A8BD8A9EC1E /* LVTwitterOAuthClient-prefix.pch */,
-				00F97BA5A0310B238D70AE1C952E6D85 /* LVTwitterOAuthClient-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LVTwitterOAuthClient";
-			sourceTree = "<group>";
-		};
-		1CAA9B12E04526EC6879E1E82E7FA409 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				95526DACFA08DF8046C87C212184E268 /* Accounts.framework */,
-				92B0CF88E0A0D2FB176164EDFBD5010C /* Foundation.framework */,
-				4D2F8983A2A6877347C39F076E585EC9 /* Social.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		1E65A161E22A11BB68B9CD3AB1A055D8 /* ISO8601DateFormatter */ = {
-			isa = PBXGroup;
-			children = (
-				F2F2C68D16A5F5B1EE4BC16CB953AC2E /* ISO8601DateFormatter.h */,
-				56A7C1C0ADBD79C7B22EB737E003B6E9 /* ISO8601DateFormatter.m */,
-				1616C8FEC0F9B6BC7496BE99E442A07C /* Support Files */,
-			);
-			path = ISO8601DateFormatter;
-			sourceTree = "<group>";
-		};
-		2203C02AB6BBAAF44B8B67D1052376F7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C6494845855EF9FE3B833F0588709465 /* Artsy+Authentication */,
-				1E65A161E22A11BB68B9CD3AB1A055D8 /* ISO8601DateFormatter */,
-				B72B570850FDF5C5F71C945303700BDB /* LVTwitterOAuthClient */,
-				C72A3F8FA9DCB9C2BEA17CA89A1A0C0C /* NSData+Base64 */,
-				9D58C33447EF0951652BE16ECDE6673B /* NSURL+QueryDictionary */,
-				17A30C8D5AB792708F04BEEA240E8202 /* OAuthCore */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		2E08DF010615D1CA474F3E7A12306A06 /* Pods-Artsy Stickers */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,42 +80,12 @@
 			path = "Target Support Files/Pods-Artsy Stickers";
 			sourceTree = "<group>";
 		};
-		3ECCE91CEB9C260FC3683D27A6B8A75B /* Support Files */ = {
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				172F968AA980463B44B8D10420868444 /* Artsy+Authentication.modulemap */,
-				BF9F8E97011E1FE54CBF293E010243CA /* Artsy+Authentication.xcconfig */,
-				536F119D49A44FB75E79F886D64CB768 /* Artsy+Authentication-dummy.m */,
-				C796DB30BFEEE53800FB64953C2E3ADB /* Artsy+Authentication-prefix.pch */,
-				3504FE67FD880426064007F2078B0653 /* Artsy+Authentication-umbrella.h */,
-				4B9B6E06173AB1F3B0489E40D79D92A2 /* Info.plist */,
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Artsy+Authentication";
-			sourceTree = "<group>";
-		};
-		497B9FDC1B91055C1D8052D3CC396216 /* everything */ = {
-			isa = PBXGroup;
-			children = (
-				ED0E95AACE7DCF553C9B4619EBE82532 /* Artsy+Authentication.h */,
-				C5DDF8CE10A0B596F44585E9D73C00A5 /* ArtsyAuthentication.h */,
-				E1E069925424FC40DACECC45930E2C9F /* ArtsyAuthentication.m */,
-				EBDA22AB691C39E3CFCC55F1A62ABF6C /* ArtsyAuthentication+Accounts.h */,
-				EE0011C4556FF48D94208181DC8B2BB3 /* ArtsyAuthentication+Accounts.m */,
-				69E3636375C82891123C4C0C005AD654 /* ArtsyAuthentication+Facebook.h */,
-				4FAA944EACB6D605DE5BEB7291F88FA0 /* ArtsyAuthentication+Facebook.m */,
-				047872E25514C88A0752B15D8A625D3F /* ArtsyAuthentication+Private.h */,
-				9DD785791D76CF3EF09EBD1CDD25EB4E /* ArtsyAuthentication+Private.m */,
-				61D65949680FAD525943DBA4AEBA0E16 /* ArtsyAuthentication+Twitter.h */,
-				B5569B42FF91E5F5DED74DF26840CD03 /* ArtsyAuthentication+Twitter.m */,
-				0D30B38FFE9780C09BC429CCA02D552B /* ArtsyAuthenticationRouter.h */,
-				2676D09B87515B4DFF70398191F4A1B4 /* ArtsyAuthenticationRouter.m */,
-				4B7D10C7023A84E289E095AA8F5AD40C /* ArtsyNetworkOperator.h */,
-				783BE1A06945891324CB70B26D0306DC /* ArtsyNetworkOperator.m */,
-				6F8632597FCA2E0AD777860A13DF02FC /* ArtsyToken.h */,
-				546CA4161F20596683D1C7CDD7481913 /* ArtsyToken.m */,
-			);
-			name = everything;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		5ADA098B1D8F2C381BCE648FD7371729 /* Pods-MessagesExtension */ = {
@@ -556,122 +115,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6CEA107609891BD38819D263CED97890 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2774AED8F4CDB14B961A519C57557882 /* Info.plist */,
-				199D1645408602E25AB81A87A65EE498 /* NSURL+QueryDictionary.modulemap */,
-				F764ACD545227438F6B69C8F8AA878A8 /* NSURL+QueryDictionary.xcconfig */,
-				E2EAD1D5EEE44C2595CDA4CAD49D318F /* NSURL+QueryDictionary-dummy.m */,
-				1C90191062A896F2FCE16330F3DFF093 /* NSURL+QueryDictionary-prefix.pch */,
-				1ABD81A6087410F574032923276AA331 /* NSURL+QueryDictionary-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/NSURL+QueryDictionary";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FBAC94EAB9CA2D12BDEA91E411944D9E /* Frameworks */,
-				2203C02AB6BBAAF44B8B67D1052376F7 /* Pods */,
-				8DC72CB22011E4962B50D727D374F1D9 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7E6ED2660985AAE1CA1738EA57D9D974 /* Products */,
 				62EF887684BC0FA9ED3C463782D3BB68 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8DC72CB22011E4962B50D727D374F1D9 /* Products */ = {
+		7E6ED2660985AAE1CA1738EA57D9D974 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2636D92D3A654DAFDC72DDBD4490444 /* Artsy_Authentication.framework */,
-				50BA39774529559BE4240EA98FD6AECE /* ISO8601DateFormatter.framework */,
-				2C85EBC6A9FD424072AB0DA6021FD0BC /* LVTwitterOAuthClient.framework */,
-				828B2D7F56D156DFF2DABE5A6C265AD0 /* NSData_Base64.framework */,
-				A7A7BFA8C8EAB2EBC2E2FC15FC7961A9 /* NSURL_QueryDictionary.framework */,
-				344D78CF3DDB6CE9FBB6FAC2E43B94DD /* OAuthCore.framework */,
-				87DE087D73AA056C9879D1115147A00A /* Pods_Artsy_Stickers.framework */,
-				CEB0B648ADDC87ADE35D0DF7E0D68356 /* Pods_MessagesExtension.framework */,
+				E59F1FB3F519F1083A5F12D3F69004EB /* Pods_Artsy_Stickers.framework */,
+				11C30A8F999D4EA2B05390B83B84DB7B /* Pods_MessagesExtension.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D58C33447EF0951652BE16ECDE6673B /* NSURL+QueryDictionary */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				496F84EE75E0B64170C2B3CD722ECF1F /* NSURL+QueryDictionary.h */,
-				5A228CB52FAC46B452F280D9E9B16788 /* NSURL+QueryDictionary.m */,
-				6CEA107609891BD38819D263CED97890 /* Support Files */,
-			);
-			path = "NSURL+QueryDictionary";
-			sourceTree = "<group>";
-		};
-		B72B570850FDF5C5F71C945303700BDB /* LVTwitterOAuthClient */ = {
-			isa = PBXGroup;
-			children = (
-				419E9AFD9899EB59E17569FA58D025A7 /* LVTwitterOAuthClient.h */,
-				6374B4B46F28D9D115BBC4D9CA24BC34 /* LVTwitterOAuthClient.m */,
-				1C4777253EE47AF3B245AAFE14F3BD61 /* Support Files */,
-			);
-			path = LVTwitterOAuthClient;
-			sourceTree = "<group>";
-		};
-		C6494845855EF9FE3B833F0588709465 /* Artsy+Authentication */ = {
-			isa = PBXGroup;
-			children = (
-				497B9FDC1B91055C1D8052D3CC396216 /* everything */,
-				3ECCE91CEB9C260FC3683D27A6B8A75B /* Support Files */,
-			);
-			path = "Artsy+Authentication";
-			sourceTree = "<group>";
-		};
-		C72A3F8FA9DCB9C2BEA17CA89A1A0C0C /* NSData+Base64 */ = {
-			isa = PBXGroup;
-			children = (
-				9B9DA3545E5DFD93CB8414F5B9D5C797 /* NSData+Base64.h */,
-				8518657D9C19F194F8FCFF3C42FDDC43 /* NSData+Base64.m */,
-				EA6FCC29A78D6BDC78B18FCE8C37E293 /* Support Files */,
-			);
-			path = "NSData+Base64";
-			sourceTree = "<group>";
-		};
-		DAE3A3A9C0F4A6653A719EF64BAA47C5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3AF02AB47CA9F43B619F4D6C4D915231 /* Info.plist */,
-				9AD252C6FFE1E31589DBD56D25192E30 /* OAuthCore.modulemap */,
-				E5AA641717275DE73EFFD641E84AE1F2 /* OAuthCore.xcconfig */,
-				4D14A6D9BCDC0CA3548D88DA3A10EE34 /* OAuthCore-dummy.m */,
-				BCC32DBD80214440E0687816D463D8B5 /* OAuthCore-prefix.pch */,
-				9A99AA8A72A8A4FDADE56B53B8C1B2BD /* OAuthCore-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/OAuthCore";
-			sourceTree = "<group>";
-		};
-		EA6FCC29A78D6BDC78B18FCE8C37E293 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BC8EC01B73B48084625B29EE9A4FF24E /* Info.plist */,
-				2268167A64B1863E8343B648DE57D1B0 /* NSData+Base64.modulemap */,
-				A4CDC0787E9CDB542688AF41B9F2F058 /* NSData+Base64.xcconfig */,
-				F662099ACBC83BB906A068EC7D3E911F /* NSData+Base64-dummy.m */,
-				99028E8F68B54B9181BD8C560D360985 /* NSData+Base64-prefix.pch */,
-				A52F7C0CE8D4701FD2DD7F57235746B8 /* NSData+Base64-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/NSData+Base64";
-			sourceTree = "<group>";
-		};
-		FBAC94EAB9CA2D12BDEA91E411944D9E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DF24A62258CF1B3ACB0E8A5D8298F1A3 /* ISO8601DateFormatter.framework */,
-				08AA913D1339D6A5336494CB2272CDA8 /* LVTwitterOAuthClient.framework */,
-				40E03A703815CA477D9892A59080A3BF /* NSData_Base64.framework */,
-				A24E60B8FC1F73AE9C95F91D6C7B8D0F /* NSURL_QueryDictionary.framework */,
-				995A3C48952BB8BDA8060EF8136BEEC8 /* OAuthCore.framework */,
-				1CAA9B12E04526EC6879E1E82E7FA409 /* iOS */,
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -679,242 +145,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		23EA442456FA1D42E83F335367EC3637 /* Headers */ = {
+		3FD16AD7A7DFE65254D3ED810DA7952F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C532583C6A4A5DBA8600AE1C8D2F1F5 /* NSURL+QueryDictionary-umbrella.h in Headers */,
-				74425BE98E2CE48C9685BC745C6A2758 /* NSURL+QueryDictionary.h in Headers */,
+				BF4A6BF9D2CE675EFAD7EE1BFEA8EA1E /* Pods-Artsy Stickers-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2779B849EED9F14728D38C15CCFC7370 /* Headers */ = {
+		AD0706BD5AAE3AF8FD0B5CC441FFE5FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54CDB6FE67A70405A7689107BF8468F0 /* OAuth+Additions.h in Headers */,
-				E84DB9BE233886A10A3FC3FB3AD15394 /* OAuthCore-umbrella.h in Headers */,
-				69C631C9D59A653D91DC289A22596A5A /* OAuthCore.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82D82A09A1FEC38BF8B1896C63B517DE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFC98993214CABA5CF6249A8E564A602 /* Pods-Artsy Stickers-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FE20A24B5E0F3CF6D17DA602D3CF1EB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76185BAE9981768D11414B1724B30FE0 /* NSData+Base64-umbrella.h in Headers */,
-				A632473AB32D2815C51275DAD7A7F515 /* NSData+Base64.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6AC6417C0874513124F2CF3291C34EE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CE5DA84C43E5D88C3DC2E3E7A35718F /* Pods-MessagesExtension-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE88621231523230032687C4F5860491 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64CE2F4DBA0776B87AE9F654F828922A /* Artsy+Authentication-umbrella.h in Headers */,
-				E080A27ADA207B52AB6C50B0265DD678 /* Artsy+Authentication.h in Headers */,
-				D337604FCC48AC8039795F492058252F /* ArtsyAuthentication+Accounts.h in Headers */,
-				BEDDCF99366B35F155B8EB72A074ACE7 /* ArtsyAuthentication+Facebook.h in Headers */,
-				001ECECF6C2EE9073AACCE63D6DDB6B6 /* ArtsyAuthentication+Private.h in Headers */,
-				AF4FA0C48EB36ED03FD600229B63EBB1 /* ArtsyAuthentication+Twitter.h in Headers */,
-				9C1D7D66006E3869DAC7D89EE52C6B51 /* ArtsyAuthentication.h in Headers */,
-				F016DAE7CBA259242EA0B191012EC525 /* ArtsyAuthenticationRouter.h in Headers */,
-				F09E2F1E1F385267A878710715A8652F /* ArtsyNetworkOperator.h in Headers */,
-				245AA11966568FD090E4462375282642 /* ArtsyToken.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3A471656692BB6D8E7AE03EBC1399DF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0FF1293BA578F438C88FD9A8AF9BBF73 /* LVTwitterOAuthClient-umbrella.h in Headers */,
-				5B9A053D763DE6F22BA967E3DC7DAE79 /* LVTwitterOAuthClient.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F472C2B17B17602695178333F9E3A851 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				226CE98AA1E7027B6E14DFDE4A05D3E1 /* ISO8601DateFormatter-umbrella.h in Headers */,
-				6C987FB0A4B19091CE3746DB2F6DA572 /* ISO8601DateFormatter.h in Headers */,
+				C5BD10C8F1D9691016DFD4CFF5DEE082 /* Pods-MessagesExtension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		23237F4C3BBD85276CA941079E263C6C /* LVTwitterOAuthClient */ = {
+		49DD10D4A72BE8303BCF6D2BF723BC77 /* Pods-Artsy Stickers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCE4F3159A9D29F05B41710EB7116C81 /* Build configuration list for PBXNativeTarget "LVTwitterOAuthClient" */;
+			buildConfigurationList = 91340AB3FA1882B48B725EB7BFA47F53 /* Build configuration list for PBXNativeTarget "Pods-Artsy Stickers" */;
 			buildPhases = (
-				84786E72AA117D8CE56C43A395FCC7A7 /* Sources */,
-				69442DFA0BB1B68A0456091D55408A04 /* Frameworks */,
-				E3A471656692BB6D8E7AE03EBC1399DF /* Headers */,
+				44CDC3C55E2CEF19BA00AE1C46378287 /* Sources */,
+				A1AB41FD2FE8201E72B553466866A94A /* Frameworks */,
+				3FD16AD7A7DFE65254D3ED810DA7952F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2E7FEF249F9F897DD83F421F456906FF /* PBXTargetDependency */,
-				24CA0A2BC025CBE1CEE4A5EA70297880 /* PBXTargetDependency */,
-			);
-			name = LVTwitterOAuthClient;
-			productName = LVTwitterOAuthClient;
-			productReference = 2C85EBC6A9FD424072AB0DA6021FD0BC /* LVTwitterOAuthClient.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		34825CB3A93DC55B9FBEE3AE9FF8C0F0 /* Pods-MessagesExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE87DBF129AF53579701E04568B215D3 /* Build configuration list for PBXNativeTarget "Pods-MessagesExtension" */;
-			buildPhases = (
-				EDFE06596029B456F1EC669C9B9EADAF /* Sources */,
-				3B5C091F96B67F9F131FD8C884D99706 /* Frameworks */,
-				C6AC6417C0874513124F2CF3291C34EE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4498D3FDF6DB70A6A07A67A6D123C89C /* PBXTargetDependency */,
-				7878F2BC5CDF16961BB024907C7F4E85 /* PBXTargetDependency */,
-				03BBC6A6A0DBEDAAB33A81D067B82529 /* PBXTargetDependency */,
-				2DD6E848069B718BC3C388347A19F5C2 /* PBXTargetDependency */,
-				6A13938ADE60B3F84EB6986DFDE665A9 /* PBXTargetDependency */,
-				5D613B42DB9AFFCDF0A26AE1A3F3D400 /* PBXTargetDependency */,
-			);
-			name = "Pods-MessagesExtension";
-			productName = "Pods-MessagesExtension";
-			productReference = CEB0B648ADDC87ADE35D0DF7E0D68356 /* Pods_MessagesExtension.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4ABC0A4112381747727AE0B3537A9CDB /* OAuthCore */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5405629CF59634BEA08ED3C8F4FCFDF2 /* Build configuration list for PBXNativeTarget "OAuthCore" */;
-			buildPhases = (
-				1420775F5D61709DB9C9434977A7FA51 /* Sources */,
-				14975321C5B5FCA9DA72350DA5E4653B /* Frameworks */,
-				2779B849EED9F14728D38C15CCFC7370 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7EA3AC6DA0F73A515E596AD27376794F /* PBXTargetDependency */,
-			);
-			name = OAuthCore;
-			productName = OAuthCore;
-			productReference = 344D78CF3DDB6CE9FBB6FAC2E43B94DD /* OAuthCore.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4C71308ECE59EF87056B2E9351E543F5 /* Artsy+Authentication */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC49CE3251E8BD76B9FAAE1D9B1F21E7 /* Build configuration list for PBXNativeTarget "Artsy+Authentication" */;
-			buildPhases = (
-				9C91D00331429EA038072F77B8931F4D /* Sources */,
-				2A5AD167618AD118E069563607E01025 /* Frameworks */,
-				CE88621231523230032687C4F5860491 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FB295E379CEE0670870F5CEAC1AC73FE /* PBXTargetDependency */,
-				98CB4E58CCB79EEF32D07AEC039315C1 /* PBXTargetDependency */,
-				0E05213DEF1C2CD3A9888146D4E70F36 /* PBXTargetDependency */,
-				3A3558EB4B2ACF05F09DE30ACA9E0B89 /* PBXTargetDependency */,
-				223624D369E4FB3F2F5E7AB7BAE75A3A /* PBXTargetDependency */,
-			);
-			name = "Artsy+Authentication";
-			productName = "Artsy+Authentication";
-			productReference = A2636D92D3A654DAFDC72DDBD4490444 /* Artsy_Authentication.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5160C71BD8962F697B1144A451F240EB /* NSURL+QueryDictionary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7D7F6A1003B98DBB4E6DF5CCE5C4C40 /* Build configuration list for PBXNativeTarget "NSURL+QueryDictionary" */;
-			buildPhases = (
-				D4FE505E95CFE06346892571709D6046 /* Sources */,
-				8ACC438B2EBBDFA5FD5171118D794912 /* Frameworks */,
-				23EA442456FA1D42E83F335367EC3637 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "NSURL+QueryDictionary";
-			productName = "NSURL+QueryDictionary";
-			productReference = A7A7BFA8C8EAB2EBC2E2FC15FC7961A9 /* NSURL_QueryDictionary.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8DFC297087A6C0CB78BE7195FE7DBA33 /* Pods-Artsy Stickers */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA760CB47EE0C9848A99E8FC7D2705A7 /* Build configuration list for PBXNativeTarget "Pods-Artsy Stickers" */;
-			buildPhases = (
-				7A46BD743BC0DF483E738437AC7034FA /* Sources */,
-				7E19BBE902BFC3704109DDEE775F4D6A /* Frameworks */,
-				82D82A09A1FEC38BF8B1896C63B517DE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C41D54F1EC379E06406688A40742F960 /* PBXTargetDependency */,
-				72D1F26043BD5B0B4AAAB9CACFAC0FBE /* PBXTargetDependency */,
-				2E92A2A68C6B59F0BF1FB6BBD35D42CD /* PBXTargetDependency */,
-				77851BD7BB5F650DAE7C8AAEFC060C68 /* PBXTargetDependency */,
-				3285D7632680F274ACC7B18D57432058 /* PBXTargetDependency */,
-				47AE60E8053DF0811E1BB7A72EAFD22B /* PBXTargetDependency */,
 			);
 			name = "Pods-Artsy Stickers";
 			productName = "Pods-Artsy Stickers";
-			productReference = 87DE087D73AA056C9879D1115147A00A /* Pods_Artsy_Stickers.framework */;
+			productReference = E59F1FB3F519F1083A5F12D3F69004EB /* Pods_Artsy_Stickers.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A0E36249FB44A77D0CB59B5F9838D7C2 /* ISO8601DateFormatter */ = {
+		8AC2CDF156E30E6FADC5D1D3F84FC2B1 /* Pods-MessagesExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D2136CBEA7C6ECE25104D88F1132A37 /* Build configuration list for PBXNativeTarget "ISO8601DateFormatter" */;
+			buildConfigurationList = 108D54590C6610A001B5515D0CBD8877 /* Build configuration list for PBXNativeTarget "Pods-MessagesExtension" */;
 			buildPhases = (
-				E74D38004CE6F388555D9F11FD35EB0A /* Sources */,
-				C8141CD979B28FC19F00983484E4A00C /* Frameworks */,
-				F472C2B17B17602695178333F9E3A851 /* Headers */,
+				1E7C01D40BC5AAA0064D38477A1BD037 /* Sources */,
+				332788EDD0BCDB58BE900C2D4A79DB37 /* Frameworks */,
+				AD0706BD5AAE3AF8FD0B5CC441FFE5FF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ISO8601DateFormatter;
-			productName = ISO8601DateFormatter;
-			productReference = 50BA39774529559BE4240EA98FD6AECE /* ISO8601DateFormatter.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C033D113471FFE1972D1FE18502FE256 /* NSData+Base64 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 741A650592D57852521CDC12E90A28E7 /* Build configuration list for PBXNativeTarget "NSData+Base64" */;
-			buildPhases = (
-				8BB9ABFBE6E4C8E4D609DB8F22FB0268 /* Sources */,
-				18EE381A1447DB9E45094A1A100E8236 /* Frameworks */,
-				8FE20A24B5E0F3CF6D17DA602D3CF1EB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "NSData+Base64";
-			productName = "NSData+Base64";
-			productReference = 828B2D7F56D156DFF2DABE5A6C265AD0 /* NSData_Base64.framework */;
+			name = "Pods-MessagesExtension";
+			productName = "Pods-MessagesExtension";
+			productReference = 11C30A8F999D4EA2B05390B83B84DB7B /* Pods_MessagesExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -934,259 +215,39 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8DC72CB22011E4962B50D727D374F1D9 /* Products */;
+			productRefGroup = 7E6ED2660985AAE1CA1738EA57D9D974 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C71308ECE59EF87056B2E9351E543F5 /* Artsy+Authentication */,
-				A0E36249FB44A77D0CB59B5F9838D7C2 /* ISO8601DateFormatter */,
-				23237F4C3BBD85276CA941079E263C6C /* LVTwitterOAuthClient */,
-				C033D113471FFE1972D1FE18502FE256 /* NSData+Base64 */,
-				5160C71BD8962F697B1144A451F240EB /* NSURL+QueryDictionary */,
-				4ABC0A4112381747727AE0B3537A9CDB /* OAuthCore */,
-				8DFC297087A6C0CB78BE7195FE7DBA33 /* Pods-Artsy Stickers */,
-				34825CB3A93DC55B9FBEE3AE9FF8C0F0 /* Pods-MessagesExtension */,
+				49DD10D4A72BE8303BCF6D2BF723BC77 /* Pods-Artsy Stickers */,
+				8AC2CDF156E30E6FADC5D1D3F84FC2B1 /* Pods-MessagesExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1420775F5D61709DB9C9434977A7FA51 /* Sources */ = {
+		1E7C01D40BC5AAA0064D38477A1BD037 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A913D155A21F9B9894E605C8973EEC2 /* OAuth+Additions.m in Sources */,
-				0F2231D69831DE4EB8911D9A6D4F973D /* OAuthCore-dummy.m in Sources */,
-				13F6902947E172114154AA3956203C0B /* OAuthCore.m in Sources */,
+				B13DA8E78FA74F25B34E98D1E6562508 /* Pods-MessagesExtension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A46BD743BC0DF483E738437AC7034FA /* Sources */ = {
+		44CDC3C55E2CEF19BA00AE1C46378287 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D2B1544AD478F2313F1DA255CE25B02 /* Pods-Artsy Stickers-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84786E72AA117D8CE56C43A395FCC7A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF422088BAAE21BEF7438BCFF54B03DD /* LVTwitterOAuthClient-dummy.m in Sources */,
-				0A8FDB387FE66513CBC54AE293EC76E0 /* LVTwitterOAuthClient.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8BB9ABFBE6E4C8E4D609DB8F22FB0268 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A91DE6A946CE72EDA96B97D80447D7CB /* NSData+Base64-dummy.m in Sources */,
-				8CEE970C2E4CFC4F2D5CABF452261A62 /* NSData+Base64.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C91D00331429EA038072F77B8931F4D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F239D315509FF4C972066B63C35228D /* Artsy+Authentication-dummy.m in Sources */,
-				08D441CE65BFFA2498831E6E5352949B /* ArtsyAuthentication+Accounts.m in Sources */,
-				F004B71154CD08F8AF81F50E4F7C23A7 /* ArtsyAuthentication+Facebook.m in Sources */,
-				392AE8AD75D863434D0E657ED6B2AFF2 /* ArtsyAuthentication+Private.m in Sources */,
-				62E575721BDBD9930322B0CE1070E467 /* ArtsyAuthentication+Twitter.m in Sources */,
-				215B743DDACF41105C58A56E6798F746 /* ArtsyAuthentication.m in Sources */,
-				86B8759204782C1E2CD0189DA56C506F /* ArtsyAuthenticationRouter.m in Sources */,
-				6553D27344A18F3F7E2A2797F486CD46 /* ArtsyNetworkOperator.m in Sources */,
-				F59611AE6D4BCDE971AC72759A504580 /* ArtsyToken.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4FE505E95CFE06346892571709D6046 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BEA10DE28D45D9B271B0EC71FF2DBA58 /* NSURL+QueryDictionary-dummy.m in Sources */,
-				1C078F063601F2F289EF2E57B5A7C813 /* NSURL+QueryDictionary.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E74D38004CE6F388555D9F11FD35EB0A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29F1870DEC86E554F41DC5D8D428FBEC /* ISO8601DateFormatter-dummy.m in Sources */,
-				2E85E0CF7A3D7D0D311DD472A281CBA6 /* ISO8601DateFormatter.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDFE06596029B456F1EC669C9B9EADAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25DC0ACEFF4DD0A14F31FB26AB93E894 /* Pods-MessagesExtension-dummy.m in Sources */,
+				BBD2996506FFDD525CEB69ABE8BDE341 /* Pods-Artsy Stickers-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		03BBC6A6A0DBEDAAB33A81D067B82529 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LVTwitterOAuthClient;
-			target = 23237F4C3BBD85276CA941079E263C6C /* LVTwitterOAuthClient */;
-			targetProxy = DA6190C814AD02B481351943C443BF80 /* PBXContainerItemProxy */;
-		};
-		0E05213DEF1C2CD3A9888146D4E70F36 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NSData+Base64";
-			target = C033D113471FFE1972D1FE18502FE256 /* NSData+Base64 */;
-			targetProxy = 721AD1A6B09AFDE7C5EF8182CB7239FA /* PBXContainerItemProxy */;
-		};
-		223624D369E4FB3F2F5E7AB7BAE75A3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OAuthCore;
-			target = 4ABC0A4112381747727AE0B3537A9CDB /* OAuthCore */;
-			targetProxy = 6648809E23639E7D56FF9157B3E03072 /* PBXContainerItemProxy */;
-		};
-		24CA0A2BC025CBE1CEE4A5EA70297880 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OAuthCore;
-			target = 4ABC0A4112381747727AE0B3537A9CDB /* OAuthCore */;
-			targetProxy = D793DE2C5AB9B9EDC97F46A6DF8575D0 /* PBXContainerItemProxy */;
-		};
-		2DD6E848069B718BC3C388347A19F5C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NSData+Base64";
-			target = C033D113471FFE1972D1FE18502FE256 /* NSData+Base64 */;
-			targetProxy = A029F897A6E417FA94B8245611E3F1D5 /* PBXContainerItemProxy */;
-		};
-		2E7FEF249F9F897DD83F421F456906FF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NSData+Base64";
-			target = C033D113471FFE1972D1FE18502FE256 /* NSData+Base64 */;
-			targetProxy = D0DC8C59C44A0C016E66F0AC24CA59BE /* PBXContainerItemProxy */;
-		};
-		2E92A2A68C6B59F0BF1FB6BBD35D42CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LVTwitterOAuthClient;
-			target = 23237F4C3BBD85276CA941079E263C6C /* LVTwitterOAuthClient */;
-			targetProxy = 0423A6DFB2CC2401CCF653361CD2F06B /* PBXContainerItemProxy */;
-		};
-		3285D7632680F274ACC7B18D57432058 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NSURL+QueryDictionary";
-			target = 5160C71BD8962F697B1144A451F240EB /* NSURL+QueryDictionary */;
-			targetProxy = F7752D7F37022C40BD8984CECE6A7FA7 /* PBXContainerItemProxy */;
-		};
-		3A3558EB4B2ACF05F09DE30ACA9E0B89 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NSURL+QueryDictionary";
-			target = 5160C71BD8962F697B1144A451F240EB /* NSURL+QueryDictionary */;
-			targetProxy = CBFF407D81DC362C13AC0629CBD70125 /* PBXContainerItemProxy */;
-		};
-		4498D3FDF6DB70A6A07A67A6D123C89C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Artsy+Authentication";
-			target = 4C71308ECE59EF87056B2E9351E543F5 /* Artsy+Authentication */;
-			targetProxy = EF1CEE7C90B877357DAD986CA6856A51 /* PBXContainerItemProxy */;
-		};
-		47AE60E8053DF0811E1BB7A72EAFD22B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OAuthCore;
-			target = 4ABC0A4112381747727AE0B3537A9CDB /* OAuthCore */;
-			targetProxy = BBD86D47C2502ECF8C4D9DA9D15470A7 /* PBXContainerItemProxy */;
-		};
-		5D613B42DB9AFFCDF0A26AE1A3F3D400 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OAuthCore;
-			target = 4ABC0A4112381747727AE0B3537A9CDB /* OAuthCore */;
-			targetProxy = EC55BC2E63C9BFB7D5F0740E60687690 /* PBXContainerItemProxy */;
-		};
-		6A13938ADE60B3F84EB6986DFDE665A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NSURL+QueryDictionary";
-			target = 5160C71BD8962F697B1144A451F240EB /* NSURL+QueryDictionary */;
-			targetProxy = 0E42D25CF2B261D4617B4D5854829D78 /* PBXContainerItemProxy */;
-		};
-		72D1F26043BD5B0B4AAAB9CACFAC0FBE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ISO8601DateFormatter;
-			target = A0E36249FB44A77D0CB59B5F9838D7C2 /* ISO8601DateFormatter */;
-			targetProxy = 80C1A1A7B331033E15F1B2CAA479B6B2 /* PBXContainerItemProxy */;
-		};
-		77851BD7BB5F650DAE7C8AAEFC060C68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NSData+Base64";
-			target = C033D113471FFE1972D1FE18502FE256 /* NSData+Base64 */;
-			targetProxy = 993D7E13C16F774C00E7E3ED4D866D22 /* PBXContainerItemProxy */;
-		};
-		7878F2BC5CDF16961BB024907C7F4E85 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ISO8601DateFormatter;
-			target = A0E36249FB44A77D0CB59B5F9838D7C2 /* ISO8601DateFormatter */;
-			targetProxy = 8DA36352A6EC1593D50E5BC4D1565AC2 /* PBXContainerItemProxy */;
-		};
-		7EA3AC6DA0F73A515E596AD27376794F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NSData+Base64";
-			target = C033D113471FFE1972D1FE18502FE256 /* NSData+Base64 */;
-			targetProxy = 6A6ADCF0C81EFCE5446864B94553D356 /* PBXContainerItemProxy */;
-		};
-		98CB4E58CCB79EEF32D07AEC039315C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LVTwitterOAuthClient;
-			target = 23237F4C3BBD85276CA941079E263C6C /* LVTwitterOAuthClient */;
-			targetProxy = 95EDDF43C00120047B7ECCC64975E7F8 /* PBXContainerItemProxy */;
-		};
-		C41D54F1EC379E06406688A40742F960 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Artsy+Authentication";
-			target = 4C71308ECE59EF87056B2E9351E543F5 /* Artsy+Authentication */;
-			targetProxy = 9B21854247BBB94BC93CB05F20608E4C /* PBXContainerItemProxy */;
-		};
-		FB295E379CEE0670870F5CEAC1AC73FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ISO8601DateFormatter;
-			target = A0E36249FB44A77D0CB59B5F9838D7C2 /* ISO8601DateFormatter */;
-			targetProxy = E509F36E718FF4CDF1E19F649820C250 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		10F0D24BA60894D2EBA5F47B611DAED0 /* Debug */ = {
+		06C0CAA23FD3A6D0A3C9781456327998 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A35BA563912ED7C3BD6F6C4E3107AE9 /* LVTwitterOAuthClient.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LVTwitterOAuthClient/LVTwitterOAuthClient-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LVTwitterOAuthClient/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LVTwitterOAuthClient/LVTwitterOAuthClient.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LVTwitterOAuthClient;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		16DC2A352B8761A59C439B4922BA11DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CC58E16249C4C3704907D06F5CAB5E4 /* Pods-Artsy Stickers.release.xcconfig */;
+			baseConfigurationReference = 9206912BD1DE92CF4AE920699922250E /* Pods-MessagesExtension.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1197,18 +258,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Artsy Stickers/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MessagesExtension/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Artsy Stickers/Pods-Artsy Stickers.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Artsy_Stickers;
+				PRODUCT_NAME = Pods_MessagesExtension;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1216,93 +277,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		3516CA99FA55BCAE03EA95FEB0BBE0DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4CDC0787E9CDB542688AF41B9F2F058 /* NSData+Base64.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSData+Base64/NSData+Base64-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSData+Base64/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSData+Base64/NSData+Base64.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NSData_Base64;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		35B012CDCFBC3CBC99D56705F12A50F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF9F8E97011E1FE54CBF293E010243CA /* Artsy+Authentication.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Artsy+Authentication/Artsy+Authentication-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Artsy+Authentication/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Artsy+Authentication/Artsy+Authentication.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Artsy_Authentication;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		40297E3164820506E8670108AD8503B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F764ACD545227438F6B69C8F8AA878A8 /* NSURL+QueryDictionary.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSURL+QueryDictionary/NSURL+QueryDictionary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSURL+QueryDictionary/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSURL+QueryDictionary/NSURL+QueryDictionary.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NSURL_QueryDictionary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1342,38 +316,9 @@
 			};
 			name = Release;
 		};
-		464F251DE9818956569E63AA1A4A6B15 /* Release */ = {
+		693A029E594CEBB899E5EBB4E21DA168 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5AA641717275DE73EFFD641E84AE1F2 /* OAuthCore.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OAuthCore/OAuthCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OAuthCore/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OAuthCore/OAuthCore.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = OAuthCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		50047187BECA8E63AB9817DF391A44C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF9F8E97011E1FE54CBF293E010243CA /* Artsy+Authentication.xcconfig */;
+			baseConfigurationReference = C27874697176457036604887C21B6FF1 /* Pods-Artsy Stickers.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1384,196 +329,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Artsy+Authentication/Artsy+Authentication-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Artsy+Authentication/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Artsy+Authentication/Artsy+Authentication.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Artsy_Authentication;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		70C20490BA5F6B895BCD9EC700E4A372 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4CDC0787E9CDB542688AF41B9F2F058 /* NSData+Base64.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSData+Base64/NSData+Base64-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSData+Base64/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSData+Base64/NSData+Base64.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NSData_Base64;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		78A381F4DFE07916FAED89B765B0B2CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9206912BD1DE92CF4AE920699922250E /* Pods-MessagesExtension.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MessagesExtension/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Artsy Stickers/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MessagesExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		895ABD7D801270340FBB669077DF4A20 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67BFCBFEAED288B8EC5B94D1729F0F48 /* ISO8601DateFormatter.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ISO8601DateFormatter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ISO8601DateFormatter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8C0783320271DF4657D92D41D1DF0FBF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5AA641717275DE73EFFD641E84AE1F2 /* OAuthCore.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OAuthCore/OAuthCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OAuthCore/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OAuthCore/OAuthCore.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = OAuthCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9998EA4C2F0B802C13511595996925C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67BFCBFEAED288B8EC5B94D1729F0F48 /* ISO8601DateFormatter.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ISO8601DateFormatter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ISO8601DateFormatter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A12363D10FB9329DDF2194E616C58D22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5F484238012D91170D6C2D45AC74CEE /* Pods-MessagesExtension.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MessagesExtension/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Artsy Stickers/Pods-Artsy Stickers.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MessagesExtension;
+				PRODUCT_NAME = Pods_Artsy_Stickers;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1624,13 +391,46 @@
 			};
 			name = Debug;
 		};
-		B06749FE5FC06D42E5C5B146C23E8DC3 /* Debug */ = {
+		E5BCF7AAB958CCE178E33BF5B793E825 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C27874697176457036604887C21B6FF1 /* Pods-Artsy Stickers.debug.xcconfig */;
+			baseConfigurationReference = B5F484238012D91170D6C2D45AC74CEE /* Pods-MessagesExtension.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MessagesExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MessagesExtension/Pods-MessagesExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MessagesExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F02CD5F906635326AA2187A9E5485C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC58E16249C4C3704907D06F5CAB5E4 /* Pods-Artsy Stickers.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1643,7 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Artsy Stickers/Pods-Artsy Stickers.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1655,74 +455,16 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		CDB757DC1BD3AECE0803BD0514BC8AE2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A35BA563912ED7C3BD6F6C4E3107AE9 /* LVTwitterOAuthClient.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LVTwitterOAuthClient/LVTwitterOAuthClient-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LVTwitterOAuthClient/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LVTwitterOAuthClient/LVTwitterOAuthClient.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LVTwitterOAuthClient;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FCC64DBF6C8BCC456CD43BD56705571E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F764ACD545227438F6B69C8F8AA878A8 /* NSURL+QueryDictionary.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSURL+QueryDictionary/NSURL+QueryDictionary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSURL+QueryDictionary/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSURL+QueryDictionary/NSURL+QueryDictionary.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NSURL_QueryDictionary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D2136CBEA7C6ECE25104D88F1132A37 /* Build configuration list for PBXNativeTarget "ISO8601DateFormatter" */ = {
+		108D54590C6610A001B5515D0CBD8877 /* Build configuration list for PBXNativeTarget "Pods-MessagesExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				895ABD7D801270340FBB669077DF4A20 /* Debug */,
-				9998EA4C2F0B802C13511595996925C7 /* Release */,
+				E5BCF7AAB958CCE178E33BF5B793E825 /* Debug */,
+				06C0CAA23FD3A6D0A3C9781456327998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1736,65 +478,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5405629CF59634BEA08ED3C8F4FCFDF2 /* Build configuration list for PBXNativeTarget "OAuthCore" */ = {
+		91340AB3FA1882B48B725EB7BFA47F53 /* Build configuration list for PBXNativeTarget "Pods-Artsy Stickers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C0783320271DF4657D92D41D1DF0FBF /* Debug */,
-				464F251DE9818956569E63AA1A4A6B15 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		741A650592D57852521CDC12E90A28E7 /* Build configuration list for PBXNativeTarget "NSData+Base64" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3516CA99FA55BCAE03EA95FEB0BBE0DB /* Debug */,
-				70C20490BA5F6B895BCD9EC700E4A372 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CCE4F3159A9D29F05B41710EB7116C81 /* Build configuration list for PBXNativeTarget "LVTwitterOAuthClient" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10F0D24BA60894D2EBA5F47B611DAED0 /* Debug */,
-				CDB757DC1BD3AECE0803BD0514BC8AE2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CE87DBF129AF53579701E04568B215D3 /* Build configuration list for PBXNativeTarget "Pods-MessagesExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A12363D10FB9329DDF2194E616C58D22 /* Debug */,
-				78A381F4DFE07916FAED89B765B0B2CF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7D7F6A1003B98DBB4E6DF5CCE5C4C40 /* Build configuration list for PBXNativeTarget "NSURL+QueryDictionary" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				40297E3164820506E8670108AD8503B1 /* Debug */,
-				FCC64DBF6C8BCC456CD43BD56705571E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA760CB47EE0C9848A99E8FC7D2705A7 /* Build configuration list for PBXNativeTarget "Pods-Artsy Stickers" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B06749FE5FC06D42E5C5B146C23E8DC3 /* Debug */,
-				16DC2A352B8761A59C439B4922BA11DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FC49CE3251E8BD76B9FAAE1D9B1F21E7 /* Build configuration list for PBXNativeTarget "Artsy+Authentication" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50047187BECA8E63AB9817DF391A44C1 /* Debug */,
-				35B012CDCFBC3CBC99D56705F12A50F9 /* Release */,
+				693A029E594CEBB899E5EBB4E21DA168 /* Debug */,
+				F02CD5F906635326AA2187A9E5485C17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

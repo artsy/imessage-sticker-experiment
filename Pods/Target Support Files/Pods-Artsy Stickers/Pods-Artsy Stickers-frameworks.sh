@@ -82,20 +82,3 @@ strip_invalid_archs() {
   fi
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/Artsy+Authentication/Artsy_Authentication.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/ISO8601DateFormatter/ISO8601DateFormatter.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/LVTwitterOAuthClient/LVTwitterOAuthClient.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/NSData+Base64/NSData_Base64.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/NSURL+QueryDictionary/NSURL_QueryDictionary.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/OAuthCore/OAuthCore.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/Artsy+Authentication/Artsy_Authentication.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/ISO8601DateFormatter/ISO8601DateFormatter.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/LVTwitterOAuthClient/LVTwitterOAuthClient.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/NSData+Base64/NSData_Base64.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/NSURL+QueryDictionary/NSURL_QueryDictionary.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/OAuthCore/OAuthCore.framework"
-fi
