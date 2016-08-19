@@ -1,7 +1,82 @@
 {
   "stickers" : [
     {
-      "filename" : "Artsy_Logo_Square_PurpleWeb_Jpeg_Small.sticker"
+      "filename" : "urinal.sticker"
+    },
+    {
+      "filename" : "scream.sticker"
+    },
+    {
+      "filename" : "mustard.sticker"
+    },
+    {
+      "filename" : "scream2.sticker"
+    },
+    {
+      "filename" : "swan.sticker"
+    },
+    {
+      "filename" : "crown.sticker"
+    },
+    {
+      "filename" : "pumpkin.sticker"
+    },
+    {
+      "filename" : "clock.sticker"
+    },
+    {
+      "filename" : "cat.sticker"
+    },
+    {
+      "filename" : "jesus.sticker"
+    },
+    {
+      "filename" : "turtle.sticker"
+    },
+    {
+      "filename" : "crying.sticker"
+    },
+    {
+      "filename" : "weirdo.sticker"
+    },
+    {
+      "filename" : "female-genius.sticker"
+    },
+    {
+      "filename" : "pipe.sticker"
+    },
+    {
+      "filename" : "fight.sticker"
+    },
+    {
+      "filename" : "creation_1.sticker"
+    },
+    {
+      "filename" : "creation_2.sticker"
+    },
+    {
+      "filename" : "kate.sticker"
+    },
+    {
+      "filename" : "drop_the_pot.stickersequence"
+    },
+    {
+      "filename" : "unibrow.sticker"
+    },
+    {
+      "filename" : "Hito.sticker"
+    },
+    {
+      "filename" : "Hockney.sticker"
+    },
+    {
+      "filename" : "Lips.sticker"
+    },
+    {
+      "filename" : "Monkey.sticker"
+    },
+    {
+      "filename" : "Squirrel.sticker"
     }
   ],
   "info" : {
@@ -9,6 +84,6 @@
     "author" : "xcode"
   },
   "properties" : {
-    "grid-size" : "regular"
+    "grid-size" : "small"
   }
 }
